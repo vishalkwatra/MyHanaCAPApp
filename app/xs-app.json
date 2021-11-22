@@ -3,6 +3,7 @@
   "routes": [
       {
           "source": "/catalog/(.*)",
+          "authenticationType": "none",
           "destination": "srv-api",
           "csrfProtection": true
       }
